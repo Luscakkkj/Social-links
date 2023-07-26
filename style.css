@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+:root {
+    --body-bg-color: #FAF7FD;
+    --purple: #BB99DD;
+}
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--body-bg-color);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon{
+    width: 150px;
+    height: 150px;
+    border: 3px solid var(--purple);
+    border-radius: 100%;
+    background-size: cover;
+    background-image: url(https://avatars.githubusercontent.com/u/127639379?v=4);
+}
+
+.links > * {
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    height: 50px;
+    border: 2px solid var(--purple);
+    border-radius: 2%;
+    margin-top: 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+.social-medias{
+    display: flex;  
+    gap: 50px;  
+    margin-top: 3rem
+}
+
+a, p{
+    text-decoration: none;
+    color: var(--purple);
+    font-family: Poppins
+}
+
+.myButton {
+	background-color: var(--purple);
+	border-radius:11px;
+    border: none;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Poppins;
+	font-size:15px;
+	font-weight:bold;
+	padding:5px 10px;
+	text-decoration:none;
+}
+.myButton:hover {
+	background-color:#000000;
+}
+
+a{font-weight: 600;}
+p{font-weight: 400;}
